@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(65, 64, 64);
+    margin-top: 0;
+    padding: 0;
+    font-family: Roboto, Arial;
+    color: white;
+}
+
+.header{
+    height: 60px;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.JetFlix-logo{
+    padding-left: 20px;
+    width: 100px;
+    height: auto;
+}
+  
+.Navigation{
+    margin-left: 50px;
+}
+  
+.Nav{
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+}
+
+.jessnolimit{
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 20px;
+    margin-top: 4px;
+  }
+
+.judul{
+    margin-top: 70px;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.weekly-rank{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(28, 28, 28);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.rank{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.ke{
+    font-size: 100px;
+}
+
+h2{
+    margin-top: -10px;
+    font-size: 40px;
+}
+
+.gambar{
+    width: 175px;
+    margin-right: 40px;
+}
+
+.download{
+    width:10px;
+}
+
+button{
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: rgb(105, 105, 105);
+    color: white;
+    border-radius: 2px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    color:black;
+    background-color: rgb(249, 249, 249);
+}
+
+.footer{
+    margin-top: 40px;
+    margin-left: -10px;
+    padding-right: 17px;
+    margin-bottom: -10px;
+    width: 100%;
+    height: 140px;
+    background-color: black;
+    position: relative;
+  }
+
+  .icon{
+    position: absolute;
+    top: 20px;
+    left: 200px
+  }
+
+  .tulisan{
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 210px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  p{
+    margin-right: 20px;
+  }
+
+  h6{
+    color: rgb(143, 143, 143);
+    position: absolute;
+    top: 80px;
+    left: 210px;
+  }
